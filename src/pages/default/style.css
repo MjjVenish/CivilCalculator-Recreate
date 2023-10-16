@@ -1,0 +1,337 @@
+.App{
+  background-color: #ccc;
+}
+.title h4 {
+  font-family: "monserrat";
+  font-size: 24px;
+  margin-left: 2%;
+  margin-bottom: 10px;
+  text-align: left;
+  color: #140101; 
+  font-weight: 500;
+  }
+  .heading h6{
+    font-size: 15px;
+    font-weight: 700;
+  }
+  .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .col-sm-6 {
+    margin-left: -5%;
+    margin-right: 20px;
+    height: 340px;
+    font-family: "monserrat";
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 0px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  .heading{
+    margin: 0;
+    text-align: left;
+    color: #4b4949;
+    margin-bottom: 0px;
+  }
+  
+  .dropdown-items {
+    display:inline-flex;
+    margin: 10px;
+    margin-bottom: 5px;
+  }
+  label {
+    margin-left: 120px;
+    font-size: 16px;
+    font-weight: 100; 
+  }
+  select {
+    width: 310px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 0px;
+    margin-bottom: 5px;
+  }
+  .field-items {
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  
+  label {
+    width: 100px;
+    padding: 5px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  input[type="number"] {
+    margin-left: 10px;
+    width: 100px;
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-radius: 0px;
+    margin-bottom: 5px;
+  }
+  
+  button {
+    background-color: #d5d5d8;
+    color: #000000;
+    padding: 5px;
+    width: 50px;
+    border: 1px solid #ccc ;
+    border-radius: 0px;
+  }
+  hr{
+  border: 0.5px solid #ccc;
+  }
+  .button-style{
+    text-align: right;
+  }
+  
+  .col-sm-4{
+    margin-left:60px;
+    font-family: "monserrat";
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 0px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-size: 16px;
+  }
+  .head h5{ 
+    color:#4b4949;
+    font-size: 1.2rem;
+    font-weight:700;
+  }
+  .Volume-value .p1{
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(51, 145, 233);
+  }
+  .Volume-value .p2{
+    color:rgb(5, 107, 36);
+    font-weight: bold;
+    font-size: 22px;
+  }
+  .Volume-value h6{
+    color: rgb(117, 115, 115);
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+
+  .about{
+    padding: 0px; 
+    margin: 10px;
+    width: 90%;
+    font-family: 'monserrat';
+    border: 1px solid #ccc;
+    border-radius: 0px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+   .about h5{ 
+    color:#4b4949;
+    font-size: 1.2rem;
+    font-weight:700;
+    margin:20px;
+    padding:5px;
+  }
+  hr{
+    border: 0.5px solid #ccc;
+  
+  }
+
+.a-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.about-text {
+  font-family: 'monserrat';
+  font-size: 1rem;
+  justify-content: center;
+  margin: 30px;
+  align-items: left;
+  flex: 1;
+  padding-right:20px;
+}
+.about-image {
+  padding-left: 50px;
+  align-items: right;
+  width: 40%;
+  height: 10%;
+}
+.about-image1 {
+  padding-left: 10px;
+  align-items: right;
+  width:30%;
+  height: 40%;
+}
+ .about-text p{
+  justify-content: center;
+  font-family:'monserrat';
+  line-height: 1.2rem;
+  color: #423f3f;
+  font-size: 1rem;
+  }
+  .about-text1{
+    justify-content: center;
+    margin: 20px;
+    padding-right:80px;
+  }
+  .about-heading h6{
+    font-weight: bold;
+    font-size: 1rem;
+  }
+  .vl {
+    border-left: 6px solid #e2dfdf;
+    height: 90px;
+    margin:20px;
+  }
+  .vl h5{
+        font-weight: 200;
+  }
+  .main{
+    padding: 0px; 
+    margin: 10px;
+    width: 90%;
+    font-family: 'monserrat';
+    border: 1px solid #ccc;
+    border-radius: 0px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+   .main h5{ 
+    color:#4b4949;
+    font-size: 1.2rem;
+    font-weight:700;
+    margin:20px;
+    padding:5px;
+  }
+  hr{
+    border: 0.5px solid #ccc;
+  
+  }
+ .main p{
+  margin: 20px;
+  font-size: 1rem;
+  margin-right: 10px;
+  letter-spacing:0.1px;
+  display: flex;
+  justify-content: center;
+ }
+  
+      
+
+  @media (max-width: 600px){
+
+    .container{
+      display: flex;
+      flex-direction: column;
+    }
+    .col-sm-6 {
+      margin-left:0px;
+      height: 620px;
+      max-width: none;
+      margin: 0px;
+      padding: 20px;
+    }
+    .field-items {
+      flex-direction: column;
+    }
+  
+      .dropdown-items {
+        margin-left: 10px;
+        flex-direction: column;
+      }
+      label {
+        margin-left: 0px; 
+      }
+      select {
+        width: 350px;
+        padding: 10px;
+        margin-bottom: 5px;
+      }
+      .field-items {
+        align-items: center;
+      }
+      
+      .label{
+      align-items: left;
+    }
+  
+    input[type="number"]{
+      width: 75%;  
+    }
+    button{
+      width: 20%;
+    }
+  }
+  .col-sm-4{
+    margin: 0px;
+    padding: 10px;
+  }
+ 
+
+@media (max-width: 600px) {
+  .a-container {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+  }
+  .about{
+    width: 95%;
+  }
+  .about-text {
+    text-align: center; 
+    margin: 20px 5%;
+    padding-right: 10px; 
+  }
+
+  .about-image{
+    width:400px;
+  }
+  .about-image1 {
+    width: 200px;
+    margin-bottom: 10px;
+  }
+
+  p {
+    font-size: "monserrat";
+    margin: 10px 0;
+    text-align: center; 
+  }
+
+  .about-text1 {
+    justify-content: center;
+    text-align: center;
+    margin: 20px 5%;
+    padding-right: 10px;
+  }
+
+  .vl {
+    border-left: 6px solid #e2dfdf;
+    height: 90px;
+    margin: 5px;
+    margin-bottom: 30px;
+  }
+  .vl h5{
+    font-size: 1rem;
+  }
+  .main{ 
+    width:95%;
+  }
+}
+@media (max-width: 768px) {
+  select {
+    width: 320px;
+    padding: 10px;
+    margin-bottom: 5px;
+  }
+}

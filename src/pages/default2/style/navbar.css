@@ -1,0 +1,24 @@
+.MainNavbar {
+    display: flex;
+    height: 36px;
+    padding: 10px 5px 5px 15px !important;
+    background-color: #444d58 !important;
+}
+.navbarnav{
+    color: rgb(216, 216, 216);
+    text-decoration: none;
+    padding: 5px 5px 5px 25px !important;
+    
+}
+.navbarnav:hover{
+    color: white;
+}
+.navbarnavhome{
+    color: rgb(216, 216, 216);
+    text-decoration: none;
+    padding: 8px 5px 5px 18px !important;
+}
+.nav-icon{
+    color: rgb(216, 216, 216);
+    padding: 8px 5px 5px 5px !important;
+}

@@ -1,0 +1,98 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+    color: #333333;
+    font-family: "Open Sans", sans-serif;
+    padding: 0px !important;
+    margin: 0px !important;
+    font-size: 13px;
+    direction: ltr;
+}
+.flex{
+  display: flex;
+}
+.active {
+  color: #1922d0;
+}
+.grid{
+  display: grid;
+}
+body {
+  color: #333333;
+  font-family: "Open Sans", sans-serif;
+  padding: 0px !important;
+  margin: 0px !important;
+  font-size: 13px;
+  direction: ltr;
+  background-color: #C5CCD5;
+}
+header{
+  background-color: #fff;
+}
+.just-arround{
+  justify-content: space-between;
+}
+.just-bet{
+  justify-content: space-around;
+}
+.items-center{
+  align-items: center;
+}
+.just{
+  justify-content: center;
+}
+.just-end{
+  justify-content: end;
+}
+.main-nav a{
+   padding: 0px 12px;
+   text-decoration: none
+}
+.flex-dir{
+  flex-direction: column;
+}
+main{
+  padding: 0 12px;
+}
+.approx{
+  margin-top: 9px;
+}
+.border{
+  border: 1px solid #333333;
+}
+.text-white{
+  color: white;
+}
+.dis-none{
+  display: none;
+  background-color: #e4882b83;
+}
+.b-bot{
+  border-bottom: 1px solid #9c9c9c;
+}
+.absolute{
+  position: absolute;
+}
+.bg-black{
+  background-color: #454242;
+}
+.relative{
+  position: relative;
+}
+.flex-1{
+  flex: 1 1 0;
+}
+.bg-white{
+  background-color: #fff;
+}
+.text-center{
+  text-align: center
+}

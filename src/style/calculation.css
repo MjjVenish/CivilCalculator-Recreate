@@ -1,0 +1,427 @@
+.form-cal{
+    background-color: #fff;
+    padding:12px 18px;
+    height: 35vh;
+}
+.form-cal h2{
+    padding: 12px 0;
+    border-bottom: 1px solid #9c9c9c;
+}
+.form-label  {
+    padding: 6px 0;
+}
+.form-label input{
+    width: 80%;
+    padding: 8px 12px;
+}
+.form-label span {
+    width: 20%;
+    padding: 10px 12px;
+    background-color: #9c9c9c;
+}
+.butt{
+    padding: 10px 12px;   
+}
+.but-sub{
+    margin-right: 18px;
+    background-color: #2b53e4;
+    color: #fff;
+    border: none;
+}
+.but-res{
+    background-color: #912a13;
+    color: #fff;
+    border: none;
+    margin-right: 1.3rem;
+}
+.rs-to,.rs-fi{
+    background-color: #b43315;
+    padding: 2px 5px;
+}
+.rs-in,.rs-st{
+    background-color: #13dd82;
+    padding: 2px 5px;
+}
+.rs-sa{
+    background-color: #60b5f2;
+    padding: 2px 5px;
+}
+.rs-ag{
+    background-color: #f0e032;
+    padding: 2px 5px;
+}
+.rs-ce{
+    background-color: #2b53e4;
+    padding: 2px 5px;
+}
+
+/* caluculation of csss */
+
+.app-child{
+    background-color: #fff;
+}
+.app-child{
+    padding: 10px 12px;
+}
+.app-child h2 span{
+    color: #912a13;
+}
+.cal-details h3 span{
+color: #912a13;
+}
+.app-child h2{
+    padding-bottom: 10px;
+    border-bottom: 1px solid #9c9c9c;
+}
+.details{
+    padding:10px 0px ;
+}
+.cal-details h3{
+    padding: 10px 12px;
+    border-bottom: 1px solid #9c9c9c;
+    background-color: #C5CCD5;
+}
+.amo-cal{
+    padding: 10px 12px;
+    border-bottom: 1px solid #9c9c9c;
+}
+
+/* charts */
+
+.chart-pie{
+    padding: 0px 12px;
+    background-color: #fff;
+}
+.chart-pie h3{
+    padding: 9px 0px;
+}
+
+.bar-chart{
+    background-color: #fff;
+}
+.bar-chart h3{
+    text-align: center;
+}
+
+b{
+    font-weight: bolder;
+}
+
+/* calculation deyails of component  */
+
+.calc-details{
+ background-color: #fff;
+ text-align: center;
+ padding: 10px 0px;
+}
+.calc-details{
+    margin-top: 10px;
+}
+.calcul-ation p,.calcul-ation h5 ,.calcul-ation h3 {
+    padding: 10px 0px;
+}
+.calcul-ation h3{
+    text-transform: capitalize;
+}
+
+.calc-details div h5{
+    background-color: #41ed557d;
+    color: #165e04; 
+} 
+
+
+/* cement contrate calculation css ---------------------------------------*/
+
+.cement-conrate{
+  padding: 0px 12px;
+}
+.ce-con-child{
+    background-color: #fff;
+    height: 63vh;
+}
+.ce-con-child h3{
+    text-align: center;
+    padding: 12px 0px;
+    border-bottom: 1px solid #9c9c9c;
+}
+.cem-unit{
+    padding:6px 1.3rem;
+}
+.cem-unit select{
+ width: 100%;
+ padding: 8px 1rem;
+ border: 1px solid #bebcbc;
+ margin-top: 9px;
+}
+.cem-unit label{
+   font-weight: 700;
+}
+.inch-cm{
+    padding:4px 1.3rem;
+}
+.inch-cm input{
+    width: 85%;
+    border: 1px solid #bebcbc;
+    padding: 8px 1rem;
+}
+.inch-cm span{
+    background-color: #c9c5c5;
+    padding:10px 10px;
+}
+
+
+.inch-in{
+    margin-top: 7px;
+}
+.inch-cm .inch-in{
+    width: 81%;
+}
+.inch-cm label{
+    font-weight: 700;
+}
+.ans-cem-con{
+    padding: 12px 0px;
+    margin-top: 10px;
+}
+.ans-cem-con h2,.ans-cem-con h1{
+    padding: 8px 0px;
+}
+.ans-cem-con h1{
+    color: #b43315;
+}
+#fee {
+    padding: 10px 5%;
+}
+.charts-pie{
+    background-color: #fff;
+    height: 30vh;
+}
+tr img{
+    width: 20px;
+        height: 12px;
+}
+.table-val {
+   background-color: #fff;
+   margin-top: 10px;
+   padding: 0px 1.5rem;
+   padding-top: 12px;
+}
+.table-val table{
+    width: 100%;
+    text-align: center;
+    padding: 7px 0px;
+}
+td,th{
+    padding: 7px 0px;
+    border-bottom: 1px solid #9c9c9c;
+}
+.cem-con-calcul{
+    margin-top: 10px;
+}
+.gre-bg{
+    background-color: #23880a8b;
+    color: #165e04;
+}
+.calcula-of-cement{
+    padding: 12px 1.5rem;
+border-bottom: 1px solid #9c9c9c
+}
+.calcula-of-cement h3,.calcula-of-cement p{
+    padding: 7px 0px;
+}
+.some-dark{
+    font-size: 20px;
+}
+  .title-of-calci {
+      padding: 10px 9px;
+      border-bottom: 1px solid #9c9c9c;
+      background-color: #fff;
+      margin-top: 10px;
+  }
+
+
+@media (min-width:800px) {
+    .form-cal {
+        height: 30vh;
+    }
+
+    .but-res {
+        margin-right: 6.8rem;
+    }
+
+    .chart-pie h3 {
+        text-align: center;
+        font-size: x-large;
+    }
+
+    /* cement contrate calculation css------------------------------------ */
+
+
+    .cement-conrate {
+        display: flex;
+    }
+
+    #main-div-of {
+        height: 47vh;
+    }
+
+    .inch-cm .inch-in {
+        width: 82%;
+    }
+        #fee {
+            padding: 10px 4%;
+        }
+
+}
+@media (min-width:825px){
+#main-div-of {
+        height: 70vh;
+    }
+}
+@media (min-width:1000px) {
+    .form-cal {
+        width: 100%;
+        height: 40vh;
+    }
+
+    .but-res {
+        margin-right: 70px;
+    }
+
+    .main-tag {
+        display: flex;
+        width: 100vw;
+    }
+
+    .lab-view {
+        display: grid;
+        width: 100vw;
+        grid-template-columns: 1fr 1fr;
+        gap: 0px;
+    }
+
+    .chart-pie,
+    .bar-chart {
+        height: 62vh;
+        width: 45vw;
+        margin-top: 9px;
+    }
+
+    .approx {
+        width: 100%;
+        height: 50vh;
+        margin-bottom: 10px;
+    }
+
+    .app-am {
+        height: 62vh;
+    }
+
+    .bar-chart {
+        padding-top: 50px;
+    }
+
+    .calc-details {
+        width: 79vw;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .calc-details div {
+        border-right: 1px solid #727171;
+    }
+
+
+        /* cement contrate calculation css------------------------------------ */
+
+        .cemnt-form div{
+            display: flex;
+            align-items: center;
+            row-gap: 1rem;
+        }
+        .ce-con-child h3{
+            text-align: start;
+            padding-left: 12px;
+        }
+        .cem-unit select{
+            width: 60%;
+            margin-left: 2rem;
+        }
+        .cem-unit {
+            justify-content: end;
+        }
+        .inch-cm input,.inch-in,#Length,#Width,#Depth{
+            width: 20.7%;
+            margin-left: 2rem;
+        }
+        .inch-cm{
+            justify-content: end;
+        }
+           #Length,
+           #Width,
+           #Depth{
+            margin-bottom: 7.5px;
+           }
+           #main-div-of{
+            height: 50vh;
+           }
+           .lg-des{
+            display: flex;
+                align-items: center;
+            
+           }
+           #main-div-of{
+            display: flex;
+            width: 75vw;
+           }
+           .ce-con-child{
+            background-color:#C5CCD5;
+           }
+           .form-of-concrate{
+            flex: 2 1 0;
+            background-color: #fff;
+           }
+           .form-of-concrate+div{
+            flex: 1 1 0;
+            margin-left: 10px;
+            background-color: #fff;
+           }
+           .title-of-calci{
+            padding: 10px 9px;
+            border-bottom: 1px solid #9c9c9c;
+            background-color: #fff;
+            margin-top: 10px;
+           }
+           .chart-of-cement{
+            display: flex;
+            width: 75vw;
+           }
+            .chart-of-cement .ans-cem-con{
+                flex: 1 1 0;
+                border-right: 10px solid #C5CCD5;
+            }
+            .chart-of-cement .table-val{
+                flex: 3 1 0;
+                display: flex;
+            }
+            .table-val table,.table-val .charts-pie{
+                flex: 1 1 0;
+            }
+            .cem-con-calcul{
+                display: grid;
+                width: 75vw;
+                grid-template-columns: 1fr 1fr 1fr;
+            }
+           .calci-of-cem{
+            width: 75vw;
+            display:grid;
+            grid-template-columns: 1fr 1fr;
+           }
+            .cem-con-calcul div,.calci-of-cem div{
+                height: 25vh;
+            }
+                        #fee {
+                            padding: 10px 15px;
+                        }
+
+}

@@ -1,0 +1,17 @@
+.buttonstyle{
+    width: 25%;
+    font-family: "monserrat";
+    margin-right: 10px;
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 0px;
+    font-weight: 300;
+    background-color: rgb(247, 106, 106);
+    color: white;
+    border: 1px solid #ece8e9ea;
+}
+.buttonstyle:hover{
+    background-color: #f05151;
+    transition: all ease 0.5s;
+    border: 1px solid #e9e8e7;
+}

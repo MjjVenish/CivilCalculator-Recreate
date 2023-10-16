@@ -1,0 +1,107 @@
+ .container-fluid {
+     padding-right: 15px;
+     padding-left: 15px;
+     margin-right: auto;
+     margin-left: auto;
+     margin-bottom: 10px !important;
+ }
+.eng-cal{
+    border-right: 1px solid #000;
+    border-left: 1px solid #000;
+    padding: 0 5px;
+}
+.eng-cal .bot{
+ border-bottom: 1px solid #000;
+}
+.main-head{
+    height: 7vh;
+}
+.h-10{
+    height: 15vh;
+    background-color: #C5CCD5;
+}
+.flex h1{
+    font-size:xx-large;
+}
+.icon-option{
+    font-size: xx-large;
+}
+.nav-style{
+    padding-top: 16px;
+}
+.nav-style nav{
+    padding-top: 36px;
+}
+.icon-nav a{
+ text-decoration: none;
+ color: #000;
+ padding: 9px 10px;
+ margin: 0 12px;
+ background-color: #fff;
+}
+.lab-nav a{
+border-bottom: 1px solid #9c9c9c;
+}
+.icon-nav .color{
+    color: #10ab4e;
+}
+.icon-nav{
+    background-color:#C5CCD5;
+    padding-top: 18px;
+}
+@media (min-width:750px) {
+    .h-10{
+        height: 10vh;
+    }
+    .nav-style nav{
+        padding-top: 10px;
+    }
+}
+@media (min-width:1000px) {
+    .dis-none {
+        display: flex;
+        height: 6vh;
+        background-color: #333;   
+    }
+    .dis-nav{
+     display: flex;
+     width: 70%;
+    justify-content: space-around;
+        align-items: center;
+    }
+    .dis-nav a{
+        color: #bcc2cb;
+        text-decoration: none;
+    }
+    .dis-nav a:hover {
+        color: #fff;
+    }
+    .icon-option{
+        display: none;
+    }
+    .container-fluid{
+        display: flex;
+        background-color: #fff;
+        height: 8vh;
+    }
+        .nav-style nav{
+            padding-top: 0px;
+            flex: 1 1 0;
+        }
+}
+
+.labview-nav{
+    height: 47vh;
+    width: 65vw;
+    left: 6vw;
+    top: 6vh;
+    padding: 12px 10px;
+    overflow-wrap: break-word;
+}
+.hover-nav a{
+    padding: 9px 8px;
+    text-transform: capitalize;
+}
+.hover-nav{
+    flex-wrap: wrap;
+}

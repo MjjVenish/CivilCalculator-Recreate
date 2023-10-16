@@ -1,0 +1,47 @@
+.Mainheader{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   display: flex;
+   height: 106px;
+   justify-content: space-between;
+   background-color: white;
+}
+.civillogo{
+    height: 50px;
+    margin: 22px 24px 19px 24px;
+}
+.civillogo2{
+    height: 47px;
+    margin: 10px;
+}
+.header-icon{
+    padding: 10px;
+    margin: 10px;
+    font-size: xx-large;
+    color: lightslategray;
+}
+
+/* navbar */
+.s-Navbar {
+ display: flex; 
+    flex-direction: column;
+    background-color: white;
+    
+    margin: 20px;
+}
+.s-navbarnav:hover, .s-navbarnavhome:hover{
+    color: green;
+}
+.s-navbarnavhome{
+    text-decoration: none ;
+    color: black;
+        padding: 10px;
+    border-bottom: 1px solid rgb(199, 205, 211);
+}
+.s-navbarnav{
+    text-decoration: none;
+        border-bottom: 1px solid rgb(199, 205, 211);
+        color: black;
+        padding: 10px;
+}

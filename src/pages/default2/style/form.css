@@ -1,0 +1,153 @@
+.Form-parent{
+    height: auto;
+    background-color: white;
+    width: 40%;
+    margin: 17px 10px 10px 17px;
+    padding: 20px;
+}
+.form-title{
+    border-bottom: 1px solid rgb(204, 204, 204);
+    color: rgb(182, 182, 182);
+}
+.form-select-div{
+    display: flex;
+    margin-top: 10px;
+    width: 100%;
+}
+.form-select-div .lab-name1{
+    flex: 1 0;
+}
+ .form-select-div .form-select{
+    flex: 2 0;
+}
+
+.form-length-div{
+    display: flex;
+    gap: 10px;
+} 
+.form-length-div .form-name2{
+    flex: 1 0;
+}
+.form-length-div .form-input-parent{
+    flex: 2 0;
+}
+.form-input-parent{
+    display: flex;
+    gap: 10px;
+    margin: 5px;
+}
+.form-input-d1{
+    display: flex;
+}
+.form-input1{
+    width: 100%;
+}
+.form-title{
+    margin: 0;
+}
+.form-name2{
+    text-align: end;
+}
+
+.form-select{
+    margin-right: 10px;
+    height: 30px;
+    margin-left: 11px;
+}
+
+.lab-name1{
+    font-weight: bolder;
+    text-align: end;
+    margin-left: 5px;
+    
+}
+.form-btn{
+    background-color:rgb(202, 201, 201) ;
+    padding: 5px;
+}
+.form-name2{
+    font-weight: bolder;
+}
+.form-bottom{
+    border-top: 1px solid rgb(202, 201, 201);
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+.form-sub{
+    background-color: rgb(11, 132, 189);
+    border: none;
+    color: white;
+    padding: 7px;
+    font-size: medium;
+    margin: 10px;
+}
+.form-error{
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    color: red;
+    margin-left: 37%;
+}
+@media (max-width:967px){
+    .Form-parent{
+    width: 42.4%;
+    }
+    .form-select-div{
+        flex-direction: column;
+        gap: 0;
+    }
+    .lab-name1 {
+        text-align: start;
+        font-size: large;
+    }
+    .form-select{
+        margin: 5px;
+        padding: 7px;
+    }
+    .form-input-parent{
+        display: flex;
+        justify-content: flex-start;
+        gap: 0;
+        flex-direction: column;
+    }
+    .form-input-d1{
+        display: flex;
+        margin-left:5px ;
+        }
+    .form-input-d1 .form-input1{
+        flex: 1 0;
+    }
+    .form-input1{
+        height: 25px;
+    }
+    .form-name2{
+        text-align: start;
+        margin-left: 5px;
+        font-size: large;
+    }
+       
+    .form-length-div {
+     display: flex;
+     gap: 0px;
+    flex-direction: column;
+    }
+}
+@media (max-width:750px) {
+    .Form-parent{
+       width: 92%;
+       margin: 32px 10px 10px 10px;
+    
+    }
+    
+    
+}
+@media (max-width:400px) {
+    .Form-parent {
+        width: 80%;
+        margin: 32px 10px 10px 15px;
+
+    }
+
+
+}

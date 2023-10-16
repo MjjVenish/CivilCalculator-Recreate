@@ -1,0 +1,38 @@
+.areacal-parent{
+    height: auto;
+    width: 25%;
+    background-color: white;
+    margin: 15px;
+   text-align: center;
+}
+.areacal-parent h2{
+    border-bottom: 1px solid grey;
+    color: red;
+    padding: 10px 0px 14px 0px ;
+    margin: 0;
+    /* padding: 0; */
+}
+.areacal-parent h3{
+    margin: 0;
+    padding: 10px;
+}
+
+ @media (max-width:967px){
+    .areacal-parent{
+        width: 47%;
+    }
+ }
+ @media (max-width:750px) {
+     .areacal-parent {
+         width: 96%;
+         height: auto;
+
+     }
+ }
+ @media (max-width:400px) {
+     .areacal-parent {
+         width: 91%;
+         height: auto;
+
+     }
+ }

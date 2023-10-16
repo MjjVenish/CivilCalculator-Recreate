@@ -1,0 +1,77 @@
+.CarpetArea-parent{
+    background-color: white;
+    width: 72.5%;
+    margin: 0px 15px;
+    padding: 10px;
+}
+.carpetarea-heading{
+    color:rgb(155, 156, 156);
+    border-bottom:1px solid lightslategray;
+    padding:0px 10px 10px 10px;
+    
+}
+.carpetarea-line{
+    border-bottom: 1px solid lightslategray;
+    padding: 0px 10px 10px 10px;
+}
+.CarpetArea-p2{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid lightslategray;
+}
+.carpetarea-box1{
+        background-color: rgb(240, 238, 238);
+        padding: 5px;
+        margin: 10px;
+        justify-content: space-around;
+}
+.con-heading{
+    color: red;
+    border-bottom:1px solid lightslategray ;
+    padding: 10px;
+    margin: 0;
+}
+.con-parent{
+    padding: 5px;
+    margin: 5px;
+}
+.carpetarea-box2{
+    display: flex;
+    margin: 15px;
+    border-bottom: 1px solid lightslategray;
+}
+.carpetarea-bottom{
+    padding:5px  15px;
+    margin: 0 23px;
+    border-left:6px solid rgb(208, 209, 209);
+}
+.carpetarea-box2 ul {
+    flex: 1 0;
+}
+.CarpetArea-p2 .carpet-area-div{
+    flex: 1 0;
+}
+@media(max-width:967px){
+    .CarpetArea-p2 {
+            flex-direction: column;
+        }
+.CarpetArea-parent {
+    width: 45%;
+}
+.carpetarea-box2{
+    flex-direction: column;
+    margin: 0;
+}
+}
+ @media (max-width:750px) {
+     .CarpetArea-parent {
+         width: 92%;
+         margin-top: 15px;
+     }
+ }
+  @media (max-width:400px) {
+      .CarpetArea-parent {
+          width: 86.5%;
+          margin-top: 15px;
+      }
+  }

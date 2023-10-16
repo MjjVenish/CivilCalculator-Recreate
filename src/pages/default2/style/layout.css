@@ -1,0 +1,15 @@
+.layout-change{
+    display: flex;
+}
+ @media (max-width:967px){
+    .layout-change{
+        display: flex;
+        flex-direction: column;
+    }
+ }
+  @media (max-width:750px) {
+      .layout-change {
+          display: flex;
+          flex-direction: column;
+      }
+  }

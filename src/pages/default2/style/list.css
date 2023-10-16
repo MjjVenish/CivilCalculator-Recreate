@@ -1,0 +1,78 @@
+.list-parent{
+    width: 45%;
+    background: white;
+    margin: 14px 0;
+    padding:  15px ;
+    height: 10%;
+}
+.list-heading{
+    font-weight: bold;
+    font-size: 18px;
+    margin: 0;
+    padding: 7px;
+    background-color: rgb(206, 206, 206);
+    color: rgb(56, 52, 52);
+    border: 1px solid grey;
+}
+.list-li{
+    list-style-type: none;
+    display: flex;
+    height: 50px;
+    border-bottom:1px solid grey;
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
+    font-size: 14px;
+    justify-content: space-between;
+    padding: 5px;
+}
+.list-ul{
+    margin: 0;
+    padding: 0;
+}
+.list-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.list-btn{
+    background-color: white;
+    color: red;
+    font-size: large;
+    margin-top: 3px;
+}
+.list-div1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.list-sumofnum{
+    color: rgb(42, 113, 158);
+}
+.list-div3{
+    display: block;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+ @media (max-width:967px) {
+    .list-parent {
+            width: 44%;
+            background: white;
+            margin: 14px 15px;
+            padding: 15px;
+            height: 10%;
+        }
+ }
+ @media (max-width:750px) {
+     .list-parent {
+         width: 92%;
+         margin: 0px 15px;
+     }
+ }
+ @media (max-width:400px){
+    .list-parent {
+            width: 83.5%;
+            margin: 0px 15px;
+        }
+ }

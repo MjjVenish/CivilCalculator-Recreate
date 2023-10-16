@@ -1,0 +1,12 @@
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header_logo_left {
+  cursor: pointer;
+}
+.header_logo_right {
+  cursor: pointer;
+}
